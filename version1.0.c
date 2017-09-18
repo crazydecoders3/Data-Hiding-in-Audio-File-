@@ -92,7 +92,7 @@ void decrypt()
 	do
 	{
 		ch1=fgetc(fp2);
-		ch2=fgetc(fp2++);
+		ch2=fgetc(fp2);
 		if(feof(fp2))
 		{
 			break;
@@ -114,11 +114,11 @@ int main()
 	switch(choice)
 	{
 		case 1:
-		encode();
+		encrypt();
 		break;
 
 		case 2:
-		decode();
+		decrypt();
 		break;
 
 		default:
