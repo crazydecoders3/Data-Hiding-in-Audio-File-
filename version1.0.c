@@ -114,11 +114,11 @@ int main()
 	switch(choice)
 	{
 		case 1:
-		encode();
+		encrypt();
 		break;
 
 		case 2:
-		decode();
+		decrypt();
 		break;
 
 		default:
